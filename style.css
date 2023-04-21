@@ -2,11 +2,23 @@ body{
     background-color: black;
 }
 
-h1.name{
-    text-align: center;
-    font-size: 8.5em;
+h1{
+    position: absolute;
+    font-size: 6.5em;
     font-family: 'Space Mono', monospace;
     color: white;
+    top: 100px;
+    left: 257px;
+    margin-top: 0px;
+}
+h1.name{
+    position: absolute;
+    text-align: center;
+    font-size: 6.5em;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    top: 100px;
+    left: 760px;
     margin-top: 0px;
 }    
 
