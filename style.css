@@ -30,45 +30,8 @@ h2{
     left: 110px;
 }
 
-
-@media only screen and (max-width:400px) {
-    .body{
-        background-color: aquamarine;
+@media screen and (max-width:400px) {
+    body{
+        background-color: aqua;
     }
-    .slogo{
-        position: absolute;
-        width: 15px;
-        height: auto;
-        top: 4px;
-        left: 4px;
-    }
-    h2{
-        font-family: 'Space Mono', monospace;
-        color: white;
-        position: absolute;
-        font-size: 3.5px;
-        top: 3.8px;
-        left: 17px;
-    }
-
-    h1{
-        position: absolute;
-        font-size: 1.5em;
-        font-family: 'Space Mono', monospace;
-        color: white;
-        top: 70px;
-        left: 50px;
-        margin-top: 0px;
-    }
-
-    h1.name{
-        position: absolute;
-        text-align: center;
-        font-size: 1.5em;
-        font-family: 'Space Mono', monospace;
-        color: white;
-        top: 70px;
-        left: 165px;
-        margin-top: 0px;
-    }  
 }
