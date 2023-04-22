@@ -31,7 +31,10 @@ h2{
 }
 
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:400px) {
+    .body{
+        background-color: aquamarine;
+    }
     .slogo{
         position: absolute;
         width: 15px;
