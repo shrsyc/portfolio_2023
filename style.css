@@ -30,7 +30,7 @@ h2{
     left: 110px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:250px) {
     body{
         background-color: aqua;
     }
