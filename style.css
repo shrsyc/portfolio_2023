@@ -30,17 +30,39 @@ h2{
     left: 110px;
 }
 
+
 @media only screen and (max-width:300px) {
     .slogo{
-        width: 100px;
+        width: 70px;
         height: auto;
     }
     h2{
         font-family: 'Space Mono', monospace;
         color: white;
         position: absolute;
-        font-size: 1.3em;
-        top: 7px;
-        left: 97px;
+        font-size: 1.0em;
+        top: 6px;
+        left: 70px;
     }
+
+    h1{
+        position: absolute;
+        font-size: 1.5em;
+        font-family: 'Space Mono', monospace;
+        color: white;
+        top: 70px;
+        left: 50px;
+        margin-top: 0px;
+    }
+
+    h1.name{
+        position: absolute;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Space Mono', monospace;
+        color: white;
+        top: 70px;
+        left: 165px;
+        margin-top: 0px;
+    }  
 }
