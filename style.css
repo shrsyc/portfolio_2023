@@ -31,18 +31,21 @@ h2{
 }
 
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:320px) {
     .slogo{
-        width: 70px;
+        position: absolute;
+        width: 15px;
         height: auto;
+        top: 4px;
+        left: 4px;
     }
     h2{
         font-family: 'Space Mono', monospace;
         color: white;
         position: absolute;
-        font-size: 1.0em;
-        top: 6px;
-        left: 70px;
+        font-size: 3.5px;
+        top: 3.8px;
+        left: 17px;
     }
 
     h1{
