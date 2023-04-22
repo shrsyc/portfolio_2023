@@ -29,3 +29,18 @@ h2{
     top: 7px;
     left: 110px;
 }
+
+@media only screen and (max-width:300px) {
+    .slogo{
+        width: 100px;
+        height: auto;
+    }
+    h2{
+        font-family: 'Space Mono', monospace;
+        color: white;
+        position: absolute;
+        font-size: 1.3em;
+        top: 7px;
+        left: 97px;
+    }
+}
