@@ -43,4 +43,7 @@ h2{
         top: 10px;
         left: 180px;
     }
+    h1{
+        visibility: hidden;
+    }
 }
