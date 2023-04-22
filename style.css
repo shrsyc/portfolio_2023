@@ -30,3 +30,19 @@ h2{
     left: 110px;
 }
 
+.github_icon{
+   position: absolute;
+   top: 20px;
+   left: 1200px;
+}
+.linkedin_icon{
+    position: absolute;
+    top: 20px;
+    left: 1270px;
+ }
+
+ .contact_icon{
+    position: absolute;
+    top: 20px;
+    left: 1340px;
+ }
