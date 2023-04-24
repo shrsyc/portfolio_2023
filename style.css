@@ -13,6 +13,7 @@ h1{
     top: 100px;
     left: 257px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h1.name{
@@ -24,6 +25,7 @@ h1.name{
     top: 100px;
     left: 760px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }    
 
 h2{
@@ -50,3 +52,47 @@ h2{
     top: 20px;
     left: 1400px;
  }
+
+ /* the designation part */
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.designation {
+  height: 1vh;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 300px;
+  left: 230px;
+
+}
+.designation p {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+  color: #a6a4b9;
+}
+.designation p span.typed-text {
+  font-weight: normal;
+  color: #9aa4a4;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.designation p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
